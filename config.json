@@ -1,0 +1,17 @@
+{
+  "seed": 42,
+  "data_dir": "./input/car_data/car_data",
+  "img_size": 400,
+  "batch_size": 32,
+  "num_workers": 2,
+  "lr": 0.01,
+  "weight_decay": 0.0001,
+  "epochs": 10,
+  "model_dir": "models",
+  "model_name": "car_classifier_resnet34.pth",
+  "normalize_mean": [0.5, 0.5, 0.5],
+  "normalize_std": [0.5, 0.5, 0.5],
+  "horizontal_flip": true,
+  "rotation_deg": 15,
+  "pin_memory": true
+}
